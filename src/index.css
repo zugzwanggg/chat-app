@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer base {
+  body {
+    @apply bg-blue-200 text-white;
+  }
+  .container {
+    @apply max-w-7xl m-auto px-4;
+  }
+}
